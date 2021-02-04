@@ -1,0 +1,10 @@
+{
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+  },
+  "stylelint.enable": true,
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+}
