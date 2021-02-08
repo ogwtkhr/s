@@ -2091,6 +2091,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-imgix@^9.0.3":
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/@types/react-imgix/-/react-imgix-9.0.3.tgz#e0e5639e23383372129fa03e7b3afdee5ec705f2"
+  integrity sha512-vc6kKoLEESwzjOrXJMPTyu2V2QZ0LNcSCOWcYQr3p/M5qErbhO9wzXbZB/lAhvf5w9pGLxYxA+Tio7HtzWp2KA==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-transition-group@^4.4.0":
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/@types/react-transition-group/-/react-transition-group-4.4.0.tgz#882839db465df1320e4753e6e9f70ca7e9b4d46d"
@@ -7003,6 +7010,19 @@ gatsby-cli@^2.18.0:
     yoga-layout-prebuilt "^1.9.6"
     yurnalist "^2.1.0"
 
+gatsby-core-utils@^1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.10.0.tgz#7df5bc7b7e810c71602d5ec18a925e8a7890fb45"
+  integrity sha512-uI5gJXmVHegn8E/vttoX0BaXRJPC73RzxuZDtl2U5WBEgeg+VVkKCmNVQE9Xk+Qstm2Wd6RU+QJ4LMx5ywYZhQ==
+  dependencies:
+    ci-info "2.0.0"
+    configstore "^5.0.1"
+    fs-extra "^8.1.0"
+    node-object-hash "^2.0.0"
+    proper-lockfile "^4.1.1"
+    tmp "^0.2.1"
+    xdg-basedir "^4.0.0"
+
 gatsby-core-utils@^1.9.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.9.0.tgz#ff349cc2013fd06a85099b3aee061b01f64ceabb"
@@ -7074,10 +7094,10 @@ gatsby-plugin-eslint@^2.0.8:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-eslint/-/gatsby-plugin-eslint-2.0.8.tgz#1ff7f546a427d274dc2de3932ba29822aae330c3"
   integrity sha512-vAMy37povmQJNg6ZxY78fkWR3pKwG8MNMhO3u+4vXj2MYT5avhFvHPJTAb126ZCuygf30gAWlpwbV50zP894Jw==
 
-gatsby-plugin-google-analytics@^2.10.0:
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.10.0.tgz#e3a557779232fd919688b646e6ebd997c0575291"
-  integrity sha512-g3NjUrEPJJmjHrUxDaxgLV3rLfFXzHnGPKv4TEiqcntbuWH24rlWiZYi1btjGN+QqJMeOYGFzNILVMS8cFLxtw==
+gatsby-plugin-google-analytics@^2.11.0:
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.11.0.tgz#8d74bd3c100706f03bbccf7b130a758fce9994ad"
+  integrity sha512-aVFmzoozd0ifn5HJJY0W8R7DHkyTEvj/ueRyJJNlQMadQagIAYq+7efKon4gJzd4NZkLcoDb6moiAR066FwIIg==
   dependencies:
     "@babel/runtime" "^7.12.5"
     minimatch "3.0.4"
@@ -7100,6 +7120,17 @@ gatsby-plugin-graphql-codegen@^2.0.1:
     "@graphql-toolkit/url-loader" "^0.10.2"
     fs-extra "^7.0.1"
     lodash.debounce "^4.0.8"
+
+gatsby-plugin-manifest@^2.12.0:
+  version "2.12.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.12.0.tgz#107bcffaf236fa3b8d2c0ee830bd617bc903273b"
+  integrity sha512-I+zkLQgR66n7kFfwEwOB2BEIIvCcO+jBUg5WNzKB9N8Hn20ebowU9G/wj01EcZ9A3N2qoe1yVeU+Lo0+kXR5pQ==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+    gatsby-core-utils "^1.10.0"
+    gatsby-plugin-utils "^0.9.0"
+    semver "^7.3.2"
+    sharp "^0.27.0"
 
 gatsby-plugin-offline@^3.9.0:
   version "3.9.0"
@@ -7195,6 +7226,13 @@ gatsby-plugin-utils@^0.8.0:
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-0.8.0.tgz#2ecd848e6e3362ee929e496bc11528267d2fb96e"
   integrity sha512-EQC1U7LQVHaI6jXMbx4ryvA8rV1yYrlyxwO2T4nuLUDOO1STUpKTYCH4ySOEtXi6f4P5v7NxgHkFoid6ayY9HA==
+  dependencies:
+    joi "^17.2.1"
+
+gatsby-plugin-utils@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-0.9.0.tgz#64b35a0faaabad5b5c99ee8951a9c08cd64be289"
+  integrity sha512-InM8PNHtx1kF87qQOlf4pVeNA8lSIsvSjImvN6dvpUjeQqOMRN1avY0W9Trh6LKTF/keWWj975Gk8Vcr+PYyDA==
   dependencies:
     joi "^17.2.1"
 
@@ -7531,6 +7569,11 @@ get-intrinsic@^1.0.1, get-intrinsic@^1.0.2:
     function-bind "^1.1.1"
     has "^1.0.3"
     has-symbols "^1.0.1"
+
+get-node-dimensions@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/get-node-dimensions/-/get-node-dimensions-1.2.1.tgz#fb7b4bb57060fb4247dd51c9d690dfbec56b0823"
+  integrity sha512-2MSPMu7S1iOTL+BOa6K1S62hB2zUAYNF/lV0gSVlOaacd087lc6nR1H1r0e3B1CerTo+RceOmi1iJW+vp21xcQ==
 
 get-own-enumerable-property-symbols@^3.0.0:
   version "3.0.2"
@@ -9403,7 +9446,7 @@ jpeg-js@^0.4.0:
   resolved "https://registry.yarnpkg.com/jpeg-js/-/jpeg-js-0.4.3.tgz#6158e09f1983ad773813704be80680550eff977b"
   integrity sha512-ru1HWKek8octvUHFHvE5ZzQ1yAsJmIvRdGWvSoKV52XKyuyYA437QWDttXT8eZXDSbuMpHlLzPDZUPd6idIz+Q==
 
-js-base64@^2.1.9:
+js-base64@^2.1.9, js-base64@~2.6.0:
   version "2.6.4"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.6.4.tgz#f4e686c5de1ea1f867dbcad3d46d969428df98c4"
   integrity sha512-pZe//GGmwJndub7ZghVHz7vjb2LgC1m8B07Au3eYqeqv9emhESByMXxaEgkUkEqJe87oBbSniGYoQNIBklc7IQ==
@@ -12739,6 +12782,16 @@ react-hot-loader@^4.12.21:
     shallowequal "^1.1.0"
     source-map "^0.7.3"
 
+react-imgix@^9.0.3:
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/react-imgix/-/react-imgix-9.0.3.tgz#b9099013d0d03ffa7b02a7ff3394d4fb360fa1ca"
+  integrity sha512-cSK3z7njg8eiWwEx+XhGUcwmjUMSe/OvzedyLhmuEXb9ASMjqJM8c6vegmrJ6qXHElWw1UOH7BwfoQn7IXiYVw==
+  dependencies:
+    js-base64 "~2.6.0"
+    react-measure "^2.3.0"
+    shallowequal "^1.1.0"
+    warning "^4.0.1"
+
 react-is@^16.12.0, react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -12748,6 +12801,16 @@ react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
+
+react-measure@^2.3.0:
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/react-measure/-/react-measure-2.5.2.tgz#4ffc410e8b9cb836d9455a9ff18fc1f0fca67f89"
+  integrity sha512-M+rpbTLWJ3FD6FXvYV6YEGvQ5tMayQ3fGrZhRPHrE9bVlBYfDCLuDcgNttYfk8IqfOI03jz6cbpqMRTUclQnaA==
+  dependencies:
+    "@babel/runtime" "^7.2.0"
+    get-node-dimensions "^1.2.1"
+    prop-types "^15.6.2"
+    resize-observer-polyfill "^1.5.0"
 
 react-refresh@^0.8.3:
   version "0.8.3"
@@ -13312,6 +13375,11 @@ reset.css@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/reset.css/-/reset.css-2.0.2.tgz#9c01309c820b72e8f219ebcc8e1411949604f7d7"
   integrity sha1-nAEwnIILcujyGevMjhQRlJYE99c=
+
+resize-observer-polyfill@^1.5.0:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/resize-observer-polyfill/-/resize-observer-polyfill-1.5.1.tgz#0e9020dd3d21024458d4ebd27e23e40269810464"
+  integrity sha512-LwZrotdHOo12nQuZlHEmtuXdqGoOD0OhaxopaNFxWzInpEgaLWoVuAMbTzixuosCx2nEG58ngzW3vxdWoxIgdg==
 
 resolve-cwd@^2.0.0:
   version "2.0.0"
@@ -15846,7 +15914,7 @@ vue-template-compiler@^2.6.11:
     de-indent "^1.0.2"
     he "^1.1.0"
 
-warning@^4.0.3:
+warning@^4.0.1, warning@^4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/warning/-/warning-4.0.3.tgz#16e9e077eb8a86d6af7d64aa1e05fd85b4678ca3"
   integrity sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w==

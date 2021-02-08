@@ -9,6 +9,7 @@ export const TextSize = {
   X_SMALL: 1.2,
   SMALL: 1.4,
   NORMAL: 1.6,
+  MIDDLE: 1.8,
   LARGE: 2,
   X_LARGE: 2.4,
   XX_LARGE: 2.8,
@@ -41,8 +42,10 @@ export const LineHeight = {
 } as const;
 
 export const LetterSpacing = {
-  SEMI_WIDE: 0.1,
+  SEMI_WIDE: 0.15,
+  MIDDLE_WIDE: 0.2,
   WIDE: 0.25,
+  VERY_WIDE: 0.4,
 } as const;
 
 export const TypographyMixin = {
@@ -50,17 +53,15 @@ export const TypographyMixin = {
     color: ${Colors.UI_TEXT_MAIN};
     font-family: ${TypeFace.BASE};
     font-feature-settings: 'palt';
-    /* font-size: ${TextSize.NORMAL}rem; */
     font-weight: ${TextWeight.NORMAL};
     line-height: ${LineHeight.THICK};
-    letter-spacing: 0.1em;
+    letter-spacing: ${LetterSpacing.SEMI_WIDE}em;
     text-align: justify;
   `,
   DISPLAY: css`
     color: ${Colors.UI_TEXT_MAIN};
     font-family: ${TypeFace.BASE};
     font-feature-settings: 'palt';
-    /* font-size: ${TextSize.XXX_LARGE}rem; */
     font-weight: ${TextWeight.BOLD};
     line-height: ${LineHeight.NORMAL};
     letter-spacing: ${LetterSpacing.WIDE}em;
